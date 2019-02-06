@@ -1,2 +1,4 @@
 .history
 .vscode
+*.pdf
+.DS_Store
