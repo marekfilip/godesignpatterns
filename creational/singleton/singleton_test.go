@@ -2,7 +2,7 @@ package singleton
 
 import "testing"
 
-func TestGetInstance(t *testing.T) {
+func TestSingletonGetInstance(t *testing.T) {
 	counter1 := GetInstance()
 
 	if counter1 == nil {
