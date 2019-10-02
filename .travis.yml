@@ -6,5 +6,5 @@ go:
 script: 
   - ./test.sh
 
-after_success:
+after_script:
   - bash <(curl -s https://codecov.io/bash)
