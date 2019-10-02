@@ -5,7 +5,7 @@ coverage:
         # basic
         target: 100%
         threshold: null
-        base: auto 
+        base: auto
         # advanced
         branches: null
         if_no_uploads: error
@@ -14,3 +14,4 @@ coverage:
         only_pulls: false
         flags: null
         paths: null
+    patch: off
