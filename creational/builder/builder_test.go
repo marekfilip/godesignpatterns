@@ -15,7 +15,7 @@ func TestBuilderBuildCar(t *testing.T) {
 	if car.Structure != "Car" {
 		t.Errorf("Car structure must be 'Car' and was %s\n", car.Structure)
 	}
-	if car.Seats != 4 {
+	if car.Seats != 5 {
 		t.Errorf("Car should have 4 seats, had %d\n", car.Seats)
 	}
 }
